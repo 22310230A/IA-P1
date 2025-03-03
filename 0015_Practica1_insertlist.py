@@ -1,7 +1,6 @@
-colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco']
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco']  
 
-colores.insert(6 + 1, 'magenta')
+colores.insert(6 + 1, 'magenta')  # Insertar 'magenta' en la posición 7  
+colores.insert(-1, 'turquesa')  # Insertar 'turquesa' en la penúltima posición  
 
-colores.insert(-1, 'turquesa')
-
-print(colores)
+print(colores)  # Imprimir lista actualizada  
